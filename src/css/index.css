@@ -1,0 +1,49 @@
+body,
+#root {
+  min-height: 100vh;
+}
+
+.uleamBG {
+  background: url(../img/uleam.jpg) no-repeat center fixed;
+  background-size: cover;
+  min-height: calc(100vh - 56px); /* 56px --> tamaño del header */
+}
+
+#login_form_container,
+#recoverpass_form_container,
+#signup_form_container,
+#askfor_form_container,
+#askfor_datatable {
+  background-color: white;
+}
+
+#login_form_container {
+  width: 450px;
+}
+
+#recoverpass_form_container,
+#signup_form_container {
+  width: 550px;
+}
+
+#login_form_logo {
+  width: 250px;
+}
+
+.table-container>header {
+  padding: 0px;
+}
+
+.table-container>div::-webkit-scrollbar {
+  height: 1.15rem;
+}
+
+.table-container>div::-webkit-scrollbar-track {
+  background: #f4f4f2;
+}
+
+.table-container>div::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background-color: #bbbfca;
+  border: 3px solid #f4f4f2;
+}
